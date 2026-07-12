@@ -542,6 +542,7 @@ section {
   height: auto; /* Changed to auto for responsiveness */
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   text-align: center;
   margin: 0 auto; /* Centers the cards */
@@ -590,6 +591,7 @@ section {
   line-height: 1.6rem;
   font-size: 1rem;
   padding-bottom: 0.5rem;
+  
 }
 
 /* Hover Items */
@@ -658,13 +660,13 @@ section {
 /* Responsive Adjustments */
 @media (max-width: 1024px) {
   .portfolios {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Adjusts for smaller screens */
+    grid-template-columns: 1fr; /* 1 project in a row */
   }
 }
 
 @media (max-width: 768px) {
   .portfolios {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Mobile-friendly */
+    grid-template-columns: 1fr; /* Mobile-friendly */
   }
 
   .portfolios .portfolio-item {
