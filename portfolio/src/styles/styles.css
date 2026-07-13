@@ -551,7 +551,7 @@ section {
 /* Responsive Portfolio Image */
 .portfolios .portfolio-item .image img {
   width: 100%; /* Ensures image takes full width */
-  height: auto; /* Maintains aspect ratio */
+  height: 220px; /* Maintains aspect ratio */
   object-fit: cover; /* Ensures images don’t stretch */
   border-radius: 10px;
   transition: all 0.4s ease-in-out;
